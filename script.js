@@ -1,0 +1,1 @@
+const LAB_URL="";const a=document.getElementById("lab");if(LAB_URL){a.href=LAB_URL;a.target="_blank"}else{a.onclick=e=>{e.preventDefault();alert("Add your current public lab URL to LAB_URL in script.js before publishing.")}}
